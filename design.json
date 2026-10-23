@@ -1,0 +1,95 @@
+{
+  "theme": {
+    "colors": {
+      "primary": "#10B981",
+      "primaryDark": "#047857", 
+      "primaryLight": "#D1FAE5",
+      "saccoGreen": "#00C853",
+      "saccoDarkGreen": "#1B5E20",
+      "saccoLightGreen": "#E8F5E9",
+      "accent": "#3B82F6",
+      "background": "#FFFFFF",
+      "surface": "#F9FAFB",
+      "text": {
+        "primary": "#111827",
+        "secondary": "#6B7280",
+        "tertiary": "#9CA3AF",
+        "onPrimary": "#FFFFFF"
+      },
+      "status": {
+        "success": "#10B981",
+        "warning": "#F59E0B",
+        "error": "#EF4444",
+        "info": "#3B82F6"
+      },
+      "border": "#E5E7EB"
+    },
+    "typography": {
+      "fontFamily": {
+        "sans": ["System", "sans-serif"],
+        "serif": ["System", "serif"]
+      },
+      "fontSize": {
+        "xs": 12,
+        "sm": 14,
+        "base": 16,
+        "lg": 18,
+        "xl": 20,
+        "2xl": 24,
+        "3xl": 30,
+        "4xl": 36
+      }
+    },
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "2xl": 48
+    },
+    "borderRadius": {
+      "sm": 4,
+      "md": 8,
+      "lg": 12,
+      "xl": 16,
+      "2xl": 24,
+      "full": 9999
+    },
+    "shadows": {
+      "soft": {
+        "shadowColor": "#000",
+        "shadowOffset": { "width": 0, "height": 2 },
+        "shadowOpacity": 0.05,
+        "shadowRadius": 4,
+        "elevation": 2
+      },
+      "medium": {
+        "shadowColor": "#000",
+        "shadowOffset": { "width": 0, "height": 4 },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 8,
+        "elevation": 4
+      },
+      "strong": {
+        "shadowColor": "#10B981",
+        "shadowOffset": { "width": 0, "height": 10 },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 20,
+        "elevation": 10
+      }
+    }
+  },
+  "components": {
+    "button": {
+      "variants": {
+        "primary": "bg-[#00C853] rounded-xl py-4 items-center shadow-lg shadow-green-200",
+        "secondary": "bg-green-50 rounded-xl py-4 items-center",
+        "outline": "bg-transparent border border-gray-200 rounded-xl py-4 items-center"
+      }
+    },
+    "card": {
+      "base": "bg-white rounded-2xl p-4 shadow-sm border border-gray-50"
+    }
+  }
+}
